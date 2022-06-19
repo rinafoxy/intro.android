@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">intro.android</string>
+    <string name="my_first_app">My First App</string>
+    <string name="hint">Введите текст</string>
+    <string name="button">Кнопка</string>
+    <string name="check_yes">Да</string>
+    <string name="check_no">Нет</string>
+    <string name="button_on">Включено</string>
+    <string name="button_off">Выключено</string>
 </resources>
