@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/TextView"
+        android:id="@+id/TextView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-condensed"
@@ -18,7 +18,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/EditText"
+        android:id="@+id/EditText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/margin"
@@ -28,7 +28,7 @@
 
     <Button
         android:id="@+id/Button"
-        android:layout_width="wrap_content"
+        android:layout_width="@dimen/button_size"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/margin"
         android:backgroundTint="@color/nava"

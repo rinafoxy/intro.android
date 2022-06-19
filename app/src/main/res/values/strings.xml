@@ -2,9 +2,16 @@
     <string name="app_name">intro.android</string>
     <string name="my_first_app">My First App</string>
     <string name="hint">Введите текст</string>
-    <string name="button">Кнопка</string>
+    <string name="button">Заполнить данные</string>
     <string name="check_yes">Да</string>
     <string name="check_no">Нет</string>
     <string name="button_on">Включено</string>
     <string name="button_off">Выключено</string>
+    <string name="enter_data">Заполните данные</string>
+    <string name="hint_review">Отзыв о приложении</string>
+    <string name="hint_person_name">Ваше имя</string>
+    <string name="hint_phone">Номер телефона</string>
+    <string name="hint_login_number">Задайте логин из 5 цифр</string>
+    <string name="hint_password">Придумайте пароль из 9 знаков</string>
+    <string name="hint_email">Адрес электронной почты</string>
 </resources>
