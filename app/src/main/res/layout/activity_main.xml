@@ -1,11 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="@string/my_first_app"
+        android:textColor="@color/orange"
+        android:textSize="@dimen/text_view"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EditText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:hint="@string/hint"
+        android:textSize="@dimen/hint_size"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin"
+        android:backgroundTint="@color/nava"
+        android:text="@string/button"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/Switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="@dimen/margin"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <CheckBox
+        android:id="@+id/CheckBoxYes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:text="@string/check_yes" />
+
+    <CheckBox
+        android:id="@+id/CheckBoxNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:text="@string/check_no" />
+
+    <ToggleButton
+        android:id="@+id/ToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_toggle"
+        android:padding="@dimen/padding"
+        android:textOff="@string/button_off"
+        android:textOn="@string/button_on" />
 
 </LinearLayout>

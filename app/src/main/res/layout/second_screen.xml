@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="@string/enter_data"
+        android:textColor="@color/orange"
+        android:textSize="@dimen/text_view"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EditText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:ems="25"
+        android:hint="@string/hint_review"
+        android:inputType="text|textMultiLine"
+        android:maxLength="90"
+        android:textSize="@dimen/hint_size" />
+
+    <EditText
+        android:id="@+id/EditText3"
+        android:layout_width="@dimen/width_data"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:hint="@string/hint_person_name"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/hint_size" />
+
+    <EditText
+        android:id="@+id/EditText4"
+        android:layout_width="@dimen/width_data"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:hint="@string/hint_phone"
+        android:inputType="phone"
+        android:textSize="@dimen/hint_size" />
+
+    <EditText
+        android:id="@+id/EditText5"
+        android:layout_width="@dimen/width_data"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:hint="@string/hint_login_number"
+        android:inputType="number"
+        android:maxLength="5"
+        android:textSize="@dimen/hint_size" />
+
+    <EditText
+        android:id="@+id/EditText6"
+        android:layout_width="@dimen/width_data"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword"
+        android:maxLength="9"
+        android:textSize="@dimen/hint_size" />
+
+    <EditText
+        android:id="@+id/EditText7"
+        android:layout_width="@dimen/width_data"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress"
+        android:textSize="@dimen/hint_size" />
+
+    <CalendarView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+</LinearLayout>

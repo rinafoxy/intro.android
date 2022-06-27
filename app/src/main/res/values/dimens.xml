@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="text_view">30sp</dimen>
+    <dimen name="margin">15dp</dimen>
+    <dimen name="hint_size">15sp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="button_size">130dp</dimen>
+    <dimen name="width_data">270dp</dimen>
+</resources>
